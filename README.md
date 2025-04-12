@@ -1,6 +1,6 @@
 This repository contains Stan code for Bayesian hierarchical regression for fMRI data and Bayesian deconvolution to estimate individual cognitive parameters based on BOLD signal.
 
-All scripts take a single BOLD signal timeseries (e.g., extracted from an ROI and possible residualized to control for nuisance regressors prior to the Bayesian analysis).
+All scripts take a single BOLD signal timeseries (e.g., extracted from an ROI and possibly residualized to control for nuisance regressors prior to the Bayesian analysis).
 
 Bayesian_hierarchical_regression_BOLD.stan performs Bayesian hierarchical regression with a set of arbitrary regressors at the trial level. 
 It convolves regressors with the hemodynamic response function (HRF) and estimates individual-level and group-level coefficients for each regressor.
